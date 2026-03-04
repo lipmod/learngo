@@ -12,7 +12,7 @@ type Date struct {
 	time  //time 是一个嵌入到Data内的类型
 }
 
-type time int //声明一个要被嵌入的类型，不在乎是不是struct
+type time int //自定义类型可以是struct也可以是基础的这种类型,几乎所有的类型都可以
 
 func (d *Date) SetYear(year int) error {
 	if year < 1 {

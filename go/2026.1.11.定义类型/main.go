@@ -5,7 +5,7 @@ import (
 	"os"
 )
 
-type MyType string
+type MyType string //这条注释可以用鼠标浮在类型名上看到
 type Money float64
 type Yuan float64
 type Dollar float64
