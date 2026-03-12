@@ -49,7 +49,7 @@ func Getcount(lines []string) ([]int, []string) {
 }
 
 func main() {
-	lines, _ := Getstring("../data/vote.txt")
+	lines, _ := Getstring("./vote.txt")
 	fmt.Println(lines)
 
 	counts, names := Getcount(lines)
