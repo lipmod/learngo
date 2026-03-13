@@ -10,6 +10,7 @@ func home(w http.ResponseWriter, r *http.Request) {
 	// 	http.NotFound(w, r)
 	// 	return
 	// }
+	// 上面这个是将非/的请求打回去
 	w.Write([]byte("hello from snippeetbox"))
 }
 
@@ -18,7 +19,6 @@ func snippet(w http.ResponseWriter, r *http.Request) {
 	// 	w.Write([]byte("Display all snippets..."))
 	// 	return
 	// }
-
 	// http.NotFound(w, r)
 	w.Write([]byte("hello12313123 from snippeetbox"))
 }
