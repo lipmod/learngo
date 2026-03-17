@@ -1,4 +1,4 @@
 main
-go/data/
 temp*/
 out.*
+node_modules/
